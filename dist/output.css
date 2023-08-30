@@ -803,6 +803,14 @@ video {
   max-width: 36rem;
 }
 
+.max-w-\[20px\] {
+  max-width: 20px;
+}
+
+.max-w-\[48px\] {
+  max-width: 48px;
+}
+
 .origin-bottom-left {
   transform-origin: bottom left;
 }
@@ -1050,6 +1058,11 @@ video {
   line-height: 1.75rem;
 }
 
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -1126,6 +1139,10 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.underline {
+  text-decoration-line: underline;
 }
 
 .shadow {
